@@ -1,0 +1,12 @@
+myuts/_pycache_/*
+
+
+berita/migrations/*
+berita/_pycache_*
+
+pengguna/migrations/*
+pengguna/_pycache_/*
+
+.DS_Store
+
+.env

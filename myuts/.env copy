@@ -1,0 +1,17 @@
+SECRET_KEY=django-insecure-4m1f-v0p8baon6*h9#9_iorwq%_w1&gad^cl80i^_b1^g*0nue
+
+DEBUG = True
+ALLOWED_HOSTS=.localhost, .team7news.my.id, .103.175.221.92
+
+
+
+DB_ENGINE=django.db.backends.mysql
+DB_NAME=maliq
+DB_USER=maliq
+DB_PASSWORD=7546e3d16524529ea82f10e952711462b5fce448ca5d690152e4daa03d053929
+DB_HOST=103.175.221.92
+DB_PORT=3306
+
+ON_SERVER=False
+
+CELERY_URL=
