@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'pengguna',
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://maliq.team7news.my.id/']
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
