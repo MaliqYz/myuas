@@ -26,4 +26,4 @@ RUN pip install --no-cache-dir -r requirements.txt \
 COPY . .
 
 # Command to run the application
-CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:8000", "myapp.wsgi:application"]
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:8007", "myuts.wsgi:application"]
